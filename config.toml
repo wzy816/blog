@@ -1,0 +1,48 @@
+baseURL = "https://wzy816.github.io/blog"
+
+title = "z's blog"
+copyright = "©wzy816"
+
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+paginate=7
+
+[outputs]
+  home = ['html', 'rss']
+
+[params]
+	mode="light" 
+	subtitle = "reflections, deviant ideas and intrusive thoughts."
+
+[author]
+email = 'wzy816@gmail.com'
+name = 'wzy816'
+	
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 1
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+# [[menu.main]]
+# name = "Github"
+# url = "https://github.com/wzy816"
+# weight = 3
+
+[[menu.main]]
+name = "RSS"
+url = "/index.xml"
+weight = 4
+
+[frontmatter]
+lastmod = ["lastmod"]
+
+
+[services.rss]
+limit = 7
