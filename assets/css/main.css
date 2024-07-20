@@ -5,7 +5,7 @@
   --draftlabel: #831f65;
 
   --blackcolor: #311d3f;
-  --graycolor: #656460;
+  --graycolor: #878682;
   --whitecolor: #f1f1f1;
   --bordercolor: #e5e4e0;
 }
@@ -37,12 +37,6 @@ p {
   line-height: 1.5em;
   margin-block-start: 2em;
   margin-block-end: 2em;
-}
-
-hr {
-  border: 0;
-  border-top: 3px dotted var(--bordercolor);
-  margin: 1em 0;
 }
 
 blockquote {
@@ -214,8 +208,9 @@ h6::before {
 footer {
   display: flex;
   align-items: center;
-  border-top: 0.4rem dotted var(--bordercolor);
-  padding: 2rem 0rem;
+  border-top: 0.2rem dotted var(--bordercolor);
+  padding: 1rem 0rem;
+  margin: 1em 0;
   margin-top: 2rem;
 }
 

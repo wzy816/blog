@@ -1,11 +1,11 @@
 ---
-title: "excerpts 2406"
+title: "excerpts 2024-06"
 date: 2024-06-19
 lastmod: 2024-06-29
 tags: [note]
 ---
 
-最近刷的 rss feed、看过的文章、读过的书和听过的播客。
+6 月文摘
 
 ## [Why I'm unreachable and maybe you should be too](https://levels.io/contact/)
 

@@ -1,13 +1,16 @@
 baseURL = "https://wzy816.github.io/blog"
 
 title = "z's blog"
-copyright = "©wzy816"
+copyright = "© wzy816"
 
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-paginate=7
+summaryLength = 10
+
+paginate = 7
+
 
 [outputs]
   home = ['html', 'rss']
@@ -28,17 +31,13 @@ weight = 1
 [[menu.main]]
 name = "Tags"
 url = "/tags"
-weight = 3
-
-# [[menu.main]]
-# name = "Github"
-# url = "https://github.com/wzy816"
-# weight = 3
+weight = 2
 
 [[menu.main]]
-name = "RSS"
-url = "/index.xml"
-weight = 4
+name = "About"
+url = "/about"
+weight = 3
+
 
 [frontmatter]
 lastmod = ["lastmod"]

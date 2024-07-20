@@ -18,12 +18,15 @@
             >{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }}
             <span class="draft-label">DRAFT</span> {{ end }}</time
           >
-          <!-- <br />
+          <br />
           <div class="description">
-            {{ if isset .Params "description" }} {{ .Description }} {{ else }}
-            {{ .Summary }}&hellip; {{ end }}
+            {{ $summary := index (split .Content "</p>") 0 }}
+            {{ $summary := index (split $summary "<p>") 1 }}
+            {{ $summary | plainify }} &hellip;
+            <!-- {{ if isset .Params "description" }} {{ .Description }} {{ else }}
+            {{ .Summary | truncate 70 | plainify}}&hellip; {{ end }} -->
           </div>
-          <a class="readmore" href="{{ .RelPermalink }}">Read more ⟶</a> -->
+          <!-- <a class="readmore" href="{{ .RelPermalink }}">Read more →</a> -->
         </section>
         {{ end }} {{ template "partials/paginator.html" . }}
       </main>
