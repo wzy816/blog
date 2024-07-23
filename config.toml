@@ -18,10 +18,10 @@ paginate = 7
 [params]
 	mode="light" 
 	subtitle = "reflections, deviant ideas and intrusive thoughts."
-
-[author]
-email = 'wzy816@gmail.com'
-name = 'wzy816'
+	
+	[author]
+	email = 'wzy816@gmail.com'
+	name = 'wzy816'
 	
 [[menu.main]]
 name = "Posts"
@@ -33,10 +33,10 @@ name = "Tags"
 url = "/tags"
 weight = 2
 
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 3
+# [[menu.main]]
+# name = "About"
+# url = "/about"
+# weight = 3
 
 
 [frontmatter]

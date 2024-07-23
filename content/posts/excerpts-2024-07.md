@@ -3,6 +3,7 @@ title: "excerpts 2024-07"
 date: 2024-07-03
 lastmode: 2024-07-12
 tags: [note]
+draft: true
 ---
 
 7 月文摘
