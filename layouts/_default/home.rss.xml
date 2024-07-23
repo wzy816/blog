@@ -27,13 +27,12 @@
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
-      <!-- <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate> -->
       {{ with .Params.lastmod }}
         <pubDate>{{ .Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
       {{ else }}
         <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
       {{ end }}
-      <guid>{{ .Permalink }}</guid>
+      <guid>{{ .Permalink }} {{.Date}}</guid>
       <description>{{ .Content | html }}</description>
     </item>
     {{- end }}

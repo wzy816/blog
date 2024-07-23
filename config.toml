@@ -45,3 +45,7 @@ lastmod = ["lastmod"]
 
 [services.rss]
 limit = 7
+
+
+[permalinks]
+  posts = "/posts/:year/:month/:slug/"
