@@ -183,4 +183,28 @@ draft: true
 >
 > 我的棱角，并没有全部被这只“手”磨平，有些反而更尖锐了。
 
-##
+## [“五马分尸”一般的兴趣广泛](https://blog.oceanum.top/20231019/)
+
+> 总是听人说，当代互联网产品就是一种电子鸦片。短视频、短新闻不断用哗众取宠的内容轰击人的大脑，人在廉价而不断的多巴胺控制下失去自我控制力。我谨记教训，不刷短视频，不看短新闻，精心严格地筛选自己的信息来源，却陷入了无尽的焦虑之中。在我看来，这才是电子鸦片的更深层一面——让人处在害怕失去、害怕落后、害怕遗忘、害怕无功而返的焦虑之中。
+
+## [也谈西方伪史论](https://oldj.net/article/2023/12/31/discussion-on-western-pseudo-history-theory/)
+
+> 晚清时期，中华持续数千年“天朝上国”的地位被打破，国家和民族跌入深渊，这种心理上的强烈落差让人很难接受，人们迫切需要一些理论能让他们在面对西方文明时能保持一些心理优势，于是，西方伪史论应运而生。
+
+## [The days are long but the decades are short](https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short)
+
+> The days are long but the decades are short.
+
+## [周报#28 万恶的调休、零点城市与无尽的失眠](https://xlog.app/api/redirection?characterId=51803&noteId=1678)
+
+> 我个人认为，小说，是不需要「被解构」的，不需要「看懂」，不需要做「阅读理解」。你感觉到了，就行了；或者你感觉不到，那就去另找一本。感觉就是感觉，不需要解释后再「明白」，这本书确实让我颅内高潮了好多次。
+
+> 好的产品，其实就是要独裁，你管什么用户的吐槽（当然正常的反馈没问题），但是但凡要教我做事的，都滚一边去吧
+
+> 用户永远是一群流氓，永远贪得无厌，永远得寸进尺，永远自以为是。对付这群流氓最简单的方式，也就是最直接的方式，还可以借此让流氓的胃口变大
+
+## [写在上海 fc 一年之后](https://blog.k8s.li/One-Year-After-the-Lockdown-in-Shanghai.html)
+
+## [程序员与他的康威定律](https://www.edony.ink/programmer-and-conways-law/)
+
+> Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations. - Melvin Conway(1967)
