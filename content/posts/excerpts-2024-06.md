@@ -164,7 +164,7 @@ tags: [note]
 
 > To have a good relationship, you have to be your whole self and care about each of the people who work for you as a human being. It is not just business: it is personal. and deeply personal. I call this dimension "Care Personally".
 >
-> THe second dimension involves telling people when their work isn't good enough ... Challenging people generally pisses them off... and yet challenging people is often the best way to show them that you care when you're the boss. This dimension I call "Challenge Directly".
+> THe second dimension involves telling people when their work isn't good enough ...... Challenging people generally pisses them off...... and yet challenging people is often the best way to show them that you care when you're the boss. This dimension I call "Challenge Directly".
 
 > |                     | Challenge Directly (-)   | Challenge Directly (+) |
 > | ------------------- | ------------------------ | ---------------------- |
@@ -183,7 +183,7 @@ tags: [note]
 > 1. make sure that at least some of the issues raised are quickly addressed
 > 2. regularly offer explanations as to why the other issues aren't being addressed.
 
-> Sometimes creating a culture of listening is simply a matter of managing meetings the right way ... "give the quiet ones a voice".
+> Sometimes creating a culture of listening is simply a matter of managing meetings the right way ...... "give the quiet ones a voice".
 
 > push yourself and your direct reports to understand and convey thoughts and ideas more clearly
 
@@ -209,7 +209,7 @@ tags: [note]
 ## [Truthseeking is the ground in which other principles grow](https://www.lesswrong.com/posts/kbnJHpapusMJZb6Gs/truthseeking-is-the-ground-in-which-other-principles-grow)
 
 > Anything I want to do, anything I want to change, rests on having contact with reality. If I don’t have enough, I might as well be pushing buttons at random.
-> ...
+> ......
 > This is why I think constantly seeking contact with reality is the meta principle without which all (consequentialist) principles are meaningless.
 
 ## [How to send progress updates](https://www.spakhm.com/updates-howto)
@@ -224,7 +224,7 @@ tags: [note]
 
 > 在智力上，群体总是会比孤立的个人低，但是从感情上和群体激起的行动上看，群体的表现会比个人更好，也有可能更差。
 
-> 群体是所有刺激因素的奴隶。... 孤立的个人可以控制、主宰自己的反应行为，他有这种能力，但是群体却没有这种能力。
+> 群体是所有刺激因素的奴隶。...... 孤立的个人可以控制、主宰自己的反应行为，他有这种能力，但是群体却没有这种能力。
 
 > 群体失去了批判的能力，他们永远都在轻信，永远处于无意识的领域，并且随时都会听从于所有的暗示。
 
@@ -234,7 +234,7 @@ tags: [note]
 
 > 群体的感情是简单而极端的，所有提供给他们的各种想法、意见和信念，对于群体来说，他们要么全部接受，要么全部拒绝，要么将它视为真理，要么就是绝对的错误言论。
 
-> 每一种文明，其实都只是几个基本观念的产物，而且是有数的几个，这些观念很少变化和革新。... 群体能够接受的观念，基本上可以分为两类：一类是来去匆匆的观念，它只受一时的环境影响而产生。... 第二类是基本的观念，在遗传规律、公众意见和环境的影响下，这些观念具有极强的稳定性。
+> 每一种文明，其实都只是几个基本观念的产物，而且是有数的几个，这些观念很少变化和革新。...... 群体能够接受的观念，基本上可以分为两类：一类是来去匆匆的观念，它只受一时的环境影响而产生。...... 第二类是基本的观念，在遗传规律、公众意见和环境的影响下，这些观念具有极强的稳定性。
 
 > 群体所能接受的观念，必须是简单明了的，所有，一种观念想要变得通俗易懂，就必须经过一番深刻的改造。
 
@@ -248,7 +248,7 @@ tags: [note]
 
 > 几乎所有时代、所有国家的著名政客和君王，也都必须将群体的想象力视为自己权力的基础所在，不敢轻易与这种群体想象力做对抗。
 
-> 如何才能影响群体的想象力？... 最不可取的方法便是借助智力和推理，也就是不能采用论证的方法。
+> 如何才能影响群体的想象力？...... 最不可取的方法便是借助智力和推理，也就是不能采用论证的方法。
 
 > 往往那些最令人吃惊的鲜明形象最为有用。有了这些鲜明的形象，并不需要任何多余的解释，仅仅加上几个不同寻常的神奇事实，就足以刺激群众的想象力了。
 
@@ -258,9 +258,9 @@ tags: [note]
 
 > 一个民族并不具备能够真正改变其制度的能力。
 
-> 如果群体中发生过政治动荡或信仰的变化时，他们会对一些词语唤起的形象产生厌恶的情感。这个时候，对于一个真正的政治家就是一种考验，他们的当务之急一定是尽快变换说法，但前提是不能伤害事物本身。... 执政府和帝国所做的具体工作可以概括为，使用新的名称将过去存在的制度进行新的包装。
+> 如果群体中发生过政治动荡或信仰的变化时，他们会对一些词语唤起的形象产生厌恶的情感。这个时候，对于一个真正的政治家就是一种考验，他们的当务之急一定是尽快变换说法，但前提是不能伤害事物本身。...... 执政府和帝国所做的具体工作可以概括为，使用新的名称将过去存在的制度进行新的包装。
 
-> 让某种观念进入群众的头脑，最可靠最有效的办法，就是做出断言，并且简洁有力，不用理睬任何的证据和推理。... 如果让断言产生真正的影响，那就必须保持措辞不变，不断地重复断言。... 如果有效地重复一个断言，并且在这个过程中没有任何异议，这个时候形成的意见就成了所谓的流行意见。... 在这个过程中，强大的传染就开始了。各种观念、情绪、信念，在群众中都具有强大的传染力，就像微生物一样。
+> 让某种观念进入群众的头脑，最可靠最有效的办法，就是做出断言，并且简洁有力，不用理睬任何的证据和推理。...... 如果让断言产生真正的影响，那就必须保持措辞不变，不断地重复断言。...... 如果有效地重复一个断言，并且在这个过程中没有任何异议，这个时候形成的意见就成了所谓的流行意见。...... 在这个过程中，强大的传染就开始了。各种观念、情绪、信念，在群众中都具有强大的传染力，就像微生物一样。
 
 > 因为传染，群体的意见和信念会得到普及，这种普及，绝不是因为推理和论证。
 

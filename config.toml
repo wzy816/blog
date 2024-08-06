@@ -20,8 +20,8 @@ paginate = 7
 	subtitle = "reflections, deviant ideas and intrusive thoughts."
 	
 	[author]
-	email = '@gmail.com'
 	name = 'z'
+	email = '@gmail.com'
 	
 [[menu.main]]
 name = "Posts"
