@@ -1,7 +1,7 @@
 baseURL = "https://wzy816.github.io/blog"
 
-title = "z's blog"
-copyright = "© wzy816"
+title = "z's alter ego"
+copyright = "© z"
 
 pygmentsstyle = "monokai"
 pygmentscodefences = true
@@ -20,8 +20,8 @@ paginate = 7
 	subtitle = "reflections, deviant ideas and intrusive thoughts."
 	
 	[author]
-	email = 'wzy816@gmail.com'
-	name = 'wzy816'
+	email = '@gmail.com'
+	name = 'z'
 	
 [[menu.main]]
 name = "Posts"
