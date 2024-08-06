@@ -19,9 +19,9 @@
           </time>
           <br />
           <div class="description">
-            {{ $summary := index (split .Content "</p>") 0 }}
-            {{ $summary := index (split $summary "<p>") 1 }}
-            {{ $summary | plainify }} &hellip;
+            {{ $s := index (split .Content "</p>") 0 }}
+            {{ $summary := index (split $s "<p>") 1 }}
+            {{ $summary | plainify | safeHTML }} &hellip;
             <!-- {{ if isset .Params "description" }} {{ .Description }} {{ else }}
             {{ .Summary | truncate 70 | plainify}}&hellip; {{ end }} -->
           </div>
