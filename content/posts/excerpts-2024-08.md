@@ -35,9 +35,7 @@ draft: true
 
 > 其实我们每个人都是无家之犬，因为与神的连接我们才成为人。
 
-## [一个哲学视角的日常审查](https://yixi.tv/#/speech/detail?id=1252) 🌟
-
-<https://mp.weixin.qq.com/s/VTg1hSejX6HDKLf0cKk0Hg>
+## [一个哲学视角的日常审查](https://yixi.tv/#/speech/detail?id=1252) <https://mp.weixin.qq.com/s/VTg1hSejX6HDKLf0cKk0Hg>
 
 > 很多技术沉降到生活的基层，以至于大家几乎忽视它们也是一项技术，正在改造我们的生活。
 
