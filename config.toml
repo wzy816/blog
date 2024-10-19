@@ -38,8 +38,8 @@ weight = 2
 # weight = 3
 
 [frontmatter]
-date = ["lastmod", "date"]
-lastmod = ["lastmod"]
+date = ["date"]
+lastmod = ["lastmod", "date"]
 
 [services.rss]
 limit = 7
