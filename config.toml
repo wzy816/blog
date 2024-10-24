@@ -23,7 +23,7 @@ name = 'z'
 email = 'wzy816@gmail.com'
 	
 [[menu.main]]
-name = "Posts"
+name = "Archive"
 url = "/posts"
 weight = 1
 
