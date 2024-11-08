@@ -7,42 +7,25 @@ pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-paginate = 7
-
 enableEmoji = true
 
 [outputs]
-  home = ['html', 'rss']
+home = ['html', 'rss']
 
 [params]
-	mode="light" 
-	subtitle = "excerpts and reflections, deviant ideas and intrusive thoughts."
+mode="light" 
+subtitle = "excerpts and reflections, deviant ideas and intrusive thoughts."
 	
 [params.author]
 name = 'z'
 email = 'wzy816@gmail.com'
 	
-[[menu.main]]
-name = "Archive"
-url = "/posts"
-weight = 1
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 2
-
-# [[menu.main]]
-# name = "About"
-# url = "/about"
-# weight = 3
-
 [frontmatter]
 date = ["date"]
-lastmod = ["lastmod", "date"]
+lastmod = ["lastmod"]
 
 [services.rss]
 limit = 7
 
 [permalinks]
-posts = "/posts/:year/:month/:slug/"
+posts = "/:year/:month/:slug/"

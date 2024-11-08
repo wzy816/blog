@@ -1,0 +1,14 @@
+<main>
+  {{ range $tag := .Site.Taxonomies.tags }}
+  <div class="tag">{{ .Page.Title }}</div>
+  <ul class="tag-list">
+    {{ range $tag }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{.Title}}</a>
+      <time>{{ dateFormat "2006-01-02" .Date }}</time>
+      <!-- {{ if .Draft }}<span class="draft-label">DRAFT</span> {{ end }} -->
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</main>

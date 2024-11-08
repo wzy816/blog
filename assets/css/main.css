@@ -152,10 +152,11 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 1em 0;
+  margin-bottom: 4em;
   line-height: 2.5em;
 }
 
-header .main {
+header .title {
   font-size: 1.5rem;
 }
 
@@ -199,11 +200,6 @@ h6::before {
   content: "###### ";
 }
 
-.meta {
-  color: var(--graycolor);
-  letter-spacing: -0.5px;
-}
-
 /* Footer */
 footer {
   display: flex;
@@ -215,11 +211,11 @@ footer {
   margin-top: 2rem;
 }
 
-.soc {
+/* .soc {
   display: flex;
   align-items: center;
   border-bottom: none;
-}
+} */
 
 .border {
   margin-left: 0.5rem;
@@ -227,33 +223,39 @@ footer {
   border: 1px solid;
 }
 
-.footer-info {
+/* .footer-info {
   padding: var(--footer-padding);
+} */
+
+/* .title {
+  margin-bottom: 1rem;
+} */
+
+.tag-list {
+  margin-bottom: 4rem;
 }
 
-/* Common */
-.title {
-  margin-bottom: 1rem;
+.tag::before {
+  content: "🏷 ";
 }
 
 time {
   color: var(--graycolor);
+  letter-spacing: -0.5px;
   font-family: "Source Sans", "Chinese Quote", monospace;
   font-size: 1rem;
+  font-weight:normal;
 }
 
 /* .description {
   margin-bottom: 4rem;
 } */
 
-.list-item {
-  margin-bottom: 4rem;
-}
 
 /* Posts */
-article .title {
+/* article .title {
   margin-bottom: 1em;
-}
+} */
 
 /* Callout */
 /* .callout {
@@ -275,40 +277,38 @@ article .title {
   color: var(--callouctcolor);
 } */
 
-.site-description {
+/* .site-subtitle {
   display: flex;
   justify-content: space-between;
-}
+} */
 
-.tags li::before {
-  content: "🏷 ";
-}
 
-.tags a {
+
+/* .tags a {
   border-bottom: 3px solid var(--maincolor);
-}
+} */
 
-.tags a:hover {
+/* .tags a:hover {
   color: white;
   background-color: var(--hovercolor);
-}
+} */
 
 svg {
   max-height: 15px;
 }
 
-.soc:hover {
+/* .soc:hover {
   color: white;
-}
+} */
 
-.draft-label {
+/* .draft-label {
   color: var(--draftlabel);
   text-decoration: none;
-  /* padding: 2px 4px; */
-  /* border-radius: 4px; */
+  padding: 2px 4px;
+  border-radius: 4px;
   margin-left: 6px;
-  /* background-color: var(--bordercolor); */
-}
+  background-color: var(--bordercolor);
+} */
 
 /* .highlight {
   position: relative;

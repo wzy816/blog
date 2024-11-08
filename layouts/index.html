@@ -1,34 +1,11 @@
 <!DOCTYPE html>
 <html>
-  {{ partial "header.html" . }}
+  {{ partial "head.html" . }}
   <body>
     <div class="content">
-      {{ partial "head.html" . }}
-      <main class="list">
-        {{- if isset .Site.Params "subtitle" -}}
-        <div class="site-description">
-          <p>{{ .Site.Params.Subtitle | markdownify }}</p>
-        </div>
-        {{- end -}} {{ $pages := where .Site.RegularPages "Type" "in"
-        .Site.Params.mainSections }} {{ $paginator := .Paginate (where $pages
-        "Params.hidden" "ne" true) }} {{ range $paginator.Pages }}
-        <section class="list-item">
-          <h1 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h1>
-          <time>{{ dateFormat "Jan 2, 2006" .Date }}</time>
-          {{ if .Draft }}<span class="draft-label">DRAFT</span> {{ end }}
-          <!-- <br /> -->
-          <!-- <div class="description"> -->
-          <!-- {{ $s := index (split .Content "</p>") 0 }}
-            {{ $summary := index (split $s "<p>") 1 }}
-            {{ $summary | plainify | safeHTML }} &hellip; -->
-          <!-- {{ .Content | truncate 79 | plainify | safeHTML }} -->
-          <!-- {{ if isset .Params "description" }} {{ .Description }} {{ else }}
-            {{ .Summary | truncate 70 | plainify}}&hellip; {{ end }} -->
-          <!-- </div> -->
-          <!-- <a class="readmore" href="{{ .RelPermalink }}">Read more →</a> -->
-        </section>
-        {{ end }} {{ template "partials/paginator.html" . }}
-      </main>
+      {{ partial "header.html" . }}
+      {{ partial "main.html" . }}
+      <!-- {{ partial "paginator.html" . }} -->
       {{ partial "footer.html" . }}
     </div>
   </body>
