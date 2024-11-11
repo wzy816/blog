@@ -2,7 +2,7 @@
 title: "why blog"
 date: 2024-02-02
 lastmod: 2024-09-20
-tags: [life]
+tags: [post]
 ---
 
 所以为什么想重新开始写 blog？

@@ -1,7 +1,7 @@
 ---
 title: "llm 的自我修复"
 date: 2024-09-12
-tags: [work]
+tags: [post]
 ---
 
 ## hype
