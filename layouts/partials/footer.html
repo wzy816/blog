@@ -8,8 +8,17 @@
     {{ end }}
   </div>
   <div class="footer-info">
-    <!-- {{ dateFormat "2006" now }} - Apocalypse  -->
-    {{ with .Site.Copyright }} {{ . }} {{ end }}
+    {{ with .Site.Copyright }}
+
+    <img
+      width="80"
+      style="border-width: 0"
+      src="http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png"
+    />
+    This work is licensed under
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">{{ . }}</a>. {{
+    end }}
+
     <!-- | Built with <a href="https://gohugo.io">Hugo</a> & <a href="https://github.com/athul/archie">Archie</a> -->
   </div>
 </footer>

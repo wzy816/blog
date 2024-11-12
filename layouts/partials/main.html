@@ -1,6 +1,6 @@
 <main>
   {{ range $tag := .Site.Taxonomies.tags }}
-  <div class="tag">{{ .Page.Title }}</div>
+  <div class="tag"><i data-feather="tag"></i>{{ .Page.Title }}</div>
   <ul class="tag-list">
     {{ range $tag }}
     <li>
@@ -12,3 +12,6 @@
   </ul>
   {{ end }}
 </main>
+<script>
+  feather.replace();
+</script>

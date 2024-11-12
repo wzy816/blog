@@ -208,7 +208,7 @@ footer {
   border-top: 0.2rem dotted var(--bordercolor);
   padding: 1rem 0rem;
   margin: 1em 0;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 /* .soc {
@@ -232,25 +232,24 @@ footer {
 } */
 
 .tag-list {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
-
+/* 
 .tag::before {
   content: "🏷 ";
-}
+} */
 
 time {
   color: var(--graycolor);
   letter-spacing: -0.5px;
   font-family: "Source Sans", "Chinese Quote", monospace;
   font-size: 1rem;
-  font-weight:normal;
+  font-weight: normal;
 }
 
 /* .description {
   margin-bottom: 4rem;
 } */
-
 
 /* Posts */
 /* article .title {
@@ -281,8 +280,6 @@ time {
   display: flex;
   justify-content: space-between;
 } */
-
-
 
 /* .tags a {
   border-bottom: 3px solid var(--maincolor);
