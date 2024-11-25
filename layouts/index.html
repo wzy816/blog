@@ -3,10 +3,12 @@
   {{ partial "head.html" . }}
   <body>
     <div class="content">
-      {{ partial "header.html" . }}
-      {{ partial "main.html" . }}
+      {{ partial "header.html" . }} {{ partial "main.html" . }}
       <!-- {{ partial "paginator.html" . }} -->
       {{ partial "footer.html" . }}
     </div>
   </body>
+  <script>
+    feather.replace();
+  </script>
 </html>
