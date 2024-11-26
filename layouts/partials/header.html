@@ -9,6 +9,9 @@
     <span id="dark-mode-toggle" onclick="toggleTheme()"></span>
     <script src="{{ .Site.BaseURL }}js/themetoggle.js"></script>
     {{ end }} -->
+    <script>
+      feather.replace();
+    </script>
   </nav>
   <div>{{ .Site.Params.Subtitle | markdownify }}</div>
 </header>
