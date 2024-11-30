@@ -1,8 +1,8 @@
 <main>
-  {{ range $tag := .Site.Taxonomies.tags }}
-  <div class="tag"><i data-feather="tag"></i>{{ .Page.Title }}</div>
+  {{ range .Site.Taxonomies.tags.Alphabetical.Reverse }}
+  <div class="tag"><i data-feather="tag"></i>{{ .Name }}</div>
   <ul class="tag-list">
-    {{ range $tag }}
+    {{ range .WeightedPages }}
     <li>
       <a href="{{ .RelPermalink }}">{{.Title}}</a>
       <time>{{ dateFormat "2006-01-02" .Date }}</time>
