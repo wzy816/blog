@@ -1,7 +1,7 @@
 ---
 title: "team spirit"
 date: 2024-04-18
-tags: [post]
+tags: [writing]
 ---
 
 ## 正确
