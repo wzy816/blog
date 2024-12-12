@@ -21,8 +21,7 @@ name = 'z'
 email = 'wzy816@gmail.com'
 	
 [frontmatter]
-date = ["date"]
-lastmod = ["lastmod"]
+date = ["lastmod", "date"]
 
 [services.rss]
 limit = 7

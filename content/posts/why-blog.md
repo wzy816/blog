@@ -1,7 +1,6 @@
 ---
 title: "why blog"
 date: 2024-02-02
-lastmod: 2024-11-26
 tags: [writing]
 ---
 
