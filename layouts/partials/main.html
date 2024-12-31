@@ -1,14 +1,16 @@
 <main>
   {{ range .Site.Taxonomies.tags.Alphabetical.Reverse }}
-  <div class="tag"><i data-feather="tag"></i>{{ .Name }}</div>
-  <ul class="tag-list">
-    {{ range .WeightedPages }}
+  <div class="tag"><i data-feather="tag"></i><span>{{ .Name }}</span></div>
+  {{ range .Pages.GroupByDate "2006" }}
+  <ul class="post-list">
+    <time>{{ .Key }} </time>
+    {{ range .Pages }}
     <li>
       <a href="{{ .RelPermalink }}">{{.Title}}</a>
-      <time>{{ dateFormat "2006-01-02" .Date }}</time>
+      <time>{{ dateFormat "01-02" .Date }}</time>
       <!-- {{ if .Draft }}<span class="draft-label">DRAFT</span> {{ end }} -->
     </li>
     {{ end }}
   </ul>
-  {{ end }}
+  {{ end }} {{ end }}
 </main>

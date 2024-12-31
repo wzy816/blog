@@ -70,7 +70,8 @@ a {
 a:hover {
   background: var(--hovercolor);
   color: var(--whitecolor);
-  border: none;
+  border-bottom: 3px solid var(--hovercolor);
+  border-top: 3px solid var(--hovercolor);
 }
 
 ul {
@@ -248,8 +249,8 @@ footer {
   margin-bottom: 1rem;
 } */
 
-.tag-list {
-  margin-bottom: 3rem;
+.post-list {
+  margin-bottom: 4rem;
 }
 /* 
 .tag::before {
