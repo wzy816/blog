@@ -1,9 +1,13 @@
 <main>
   {{ range .Site.Taxonomies.tags.Alphabetical.Reverse }}
-  <div class="tag"><i data-feather="tag"></i><span>{{ .Name }}</span></div>
+  <div class="tag">
+    <h1>{{ .Name }}</h1>
+  </div>
   {{ range .Pages.GroupByDate "2006" }}
-  <ul class="post-list">
+  <div class="year">
     <time>{{ .Key }} </time>
+  </div>
+  <ul>
     {{ range .Pages }}
     <li>
       <a href="{{ .RelPermalink }}">{{.Title}}</a>

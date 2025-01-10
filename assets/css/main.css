@@ -249,8 +249,12 @@ footer {
   margin-bottom: 1rem;
 } */
 
-.post-list {
-  margin-bottom: 4rem;
+.tag {
+  margin-top: 4rem;
+}
+.year {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
 }
 /* 
 .tag::before {
