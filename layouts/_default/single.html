@@ -4,25 +4,8 @@
   <article>
     <div class="title">
       <h1 class="title">{{ .Title }}</h1>
-      <time class="meta">{{ dateFormat "2006-01-02" .Date }}</time>
-      <!-- {{ if .Lastmod }}
-      <time>; Last Updated on {{ dateFormat "2006-01-02" .Lastmod }}</time>
-      {{ end }} -->
-      <!-- {{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }} -->
     </div>
-    {{ if isset .Params "tldr" }}
-    <div class="tldr">
-      <strong>tl;dr:</strong>
-      {{ .Params.tldr }}
-    </div>
-    {{ end }}
-
     <section class="body">{{ .Content }}</section>
-    <!-- <div class="tags">
-			{{ range .Params.tags }}
-			<div class="tag">{{ . }}</div>
-			{{ end }}
-		</div> -->
   </article>
 </main>
 {{ end }}

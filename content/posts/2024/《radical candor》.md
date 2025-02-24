@@ -1,7 +1,7 @@
 ---
 title: "《radical candor》"
 date: 2024-06-30
-tags: [reading]
+series: [书摘]
 ---
 
 Kim Scott

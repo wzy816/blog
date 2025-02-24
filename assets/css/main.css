@@ -249,15 +249,23 @@ footer {
   margin-bottom: 1rem;
 } */
 
-.tag {
+.series {
   margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  color: var(--graycolor);
+  /* margin-top: 4rem; */
+  /* margin-block-start: 2em;
+  margin-block-end: 2em; */
 }
+
 .year {
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  margin-top: 4rem;
+  /* margin-block-start: 1em;
+  margin-block-end: 1em; */
 }
-/* 
-.tag::before {
+
+/* .tag::before {
   content: "🏷 ";
 } */
 

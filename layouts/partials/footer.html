@@ -1,12 +1,4 @@
 <footer>
-  <div style="display: flex">
-    {{ range $index, $key := .Site.Params.Social }}
-    <!-- <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}"
-      ><i data-feather="{{ $key.icon }}"></i
-    ></a> -->
-    <a class="border"></a>
-    {{ end }}
-  </div>
   <div class="footer-info">
     {{ with .Site.Copyright }} {{ $byncsa := resources.Get "image/by-nc-sa.png"
     }}
@@ -15,7 +7,5 @@
 
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">{{ . }}</a>. {{
     end }}
-
-    <!-- | Built with <a href="https://gohugo.io">Hugo</a> & <a href="https://github.com/athul/archie">Archie</a> -->
   </div>
 </footer>

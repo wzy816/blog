@@ -1,7 +1,6 @@
 ---
 title: "why blog"
 date: 2024-02-02
-tags: [writing]
 ---
 
 所以为什么想重新开始写 blog？

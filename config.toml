@@ -28,3 +28,6 @@ limit = 7
 
 [permalinks]
 posts = "/:year/:month/:slug/"
+
+[taxonomies]
+  series = 'series'

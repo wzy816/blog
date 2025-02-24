@@ -1,9 +1,6 @@
 <main>
-  {{ range .Site.Taxonomies.tags.Alphabetical.Reverse }}
-  <div class="tag">
-    <h1>{{ .Name }}</h1>
-  </div>
-  {{ range .Pages.GroupByDate "2006" }}
+  {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+  {{ range $pages.GroupByDate "2006" "desc" }}
   <div class="year">
     <time>{{ .Key }} </time>
   </div>
@@ -12,9 +9,8 @@
     <li>
       <a href="{{ .RelPermalink }}">{{.Title}}</a>
       <time>{{ dateFormat "01-02" .Date }}</time>
-      <!-- {{ if .Draft }}<span class="draft-label">DRAFT</span> {{ end }} -->
     </li>
     {{ end }}
   </ul>
-  {{ end }} {{ end }}
+  {{ end }}
 </main>
