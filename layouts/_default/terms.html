@@ -1,12 +1,12 @@
 {{ define "main" }}
 <main>
-  {{ range .Site.Taxonomies.series.Alphabetical.Reverse }}
+  {{ range .Site.Taxonomies.series.ByCount.Reverse }}
   <div class="series">
     {{ .Name }}
     <i data-feather="film"></i>
   </div>
   <ul>
-    {{ range .Pages.ByDate.Reverse }}
+    {{ range .Pages.ByDate }}
     <li>
       <a href="{{ .RelPermalink }}">{{.Title}}</a>
     </li>
