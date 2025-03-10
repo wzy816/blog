@@ -27,8 +27,14 @@ Stuart Holl
 
 > Representation is the production of meaning through language.
 
-> two systems of representations ...
-> a 'system of representation'. That is because it consists, not of individual concepís, but of different ways of organizing, clustering, arranging and classifying concepts, and of establishing complex relaíions between them.
+> At the heart of the meaning process in culture, then, are two related 'systems of representatton', The first enables us to give meaning to the world by constructing a set of correspondences or a chain of equivalence between things — people, objects, events, abstract ideas, etc. - and our system of concepts, our conceptual maps. The second depends on constructing a set of correspondences between our conceptual map and a set of signs, arranged or organized into various languages which stand for or represent those concepts. The relation between 'things', concepts and signs lies at the heart of the production of meaning.
+
+> Visual signs are what are called iconic signs. That is, they bear, in their form, a certain resemblance to the object, person or event to which they refer.
 > ...
-> we are able io communicate because we share broadly the same conceptual maps and thus make sense of or interpret the woríd in roughly similar ways. ... However, a shared conceptual map is not enough. We must also be able to represent or exchange meanings and concepts, and we can only do íhat when we also have access to a shared language.
-> ...
+> They bear no obvious relationship at all to the things to which they refer.
+
+> One way of thinking about 'culture', then, is in in terms of these shared conceptual maps, shared language systems and the codes which govern the relationships of translation between them.
+
+> But how far is our experience actually bounded by our linguistic and conceptual universe?
+
+> The main point is that meaning does not inhere in things, in the world. It is constructed, produced. It is the result of a signifying practice -- a practice that produces meaning, that makes things mean.
