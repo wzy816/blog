@@ -1,5 +1,5 @@
 ---
-title: "《radical candor》"
+title: "《radical candor》书摘"
 date: 2024-06-30
 series: [书摘]
 ---

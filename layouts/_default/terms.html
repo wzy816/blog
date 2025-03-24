@@ -2,8 +2,8 @@
 <main>
   {{ range .Site.Taxonomies.series.ByCount.Reverse }}
   <div class="series">
-    <i data-feather="film"></i>
     {{ .Name }}
+    <i data-feather="film"></i>
   </div>
   <ul>
     {{ range .Pages.ByDate }}
