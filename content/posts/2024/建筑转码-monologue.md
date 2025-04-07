@@ -1,6 +1,8 @@
 ---
 title: "建筑转码 monologue"
 date: 2024-02-06
+series:
+  - 建筑
 ---
 
 以下内容曾于 2022 年 9 月发布在小红书。原封不动捞回来，it is a retrospect。
