@@ -3,7 +3,7 @@ title: "《REPRESENTATION: CULTURAL REPRESENTATIONS AND SIGNIFYING PRACTICES》�
 date: 2025-02-26
 lastmod: 2025-03-11
 series:
-  - 书摘
+  - 书摘网摘
 ---
 
 Stuart Holl
