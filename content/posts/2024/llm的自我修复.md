@@ -2,7 +2,7 @@
 title: llm 的自我修复
 date: 2024-09-12
 series:
-  - life&work
+  - life & work
 ---
 
 ## hype
