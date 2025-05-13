@@ -1,8 +1,8 @@
 ---
-title: "llm 的越狱"
+title: llm 的越狱
 date: 2024-11-06
 series:
-  - llm
+  - life&work
 ---
 
 b 站上最近有个 [曹操和人工智能对话后被吓坏了！](https://www.bilibili.com/video/BV1YESvYHESb) 很火。
