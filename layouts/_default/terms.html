@@ -1,9 +1,9 @@
 {{ define "main" }}
 <main>
-  {{ range .Site.Taxonomies.series.ByCount.Reverse }}
+  {{ range .Site.Taxonomies.series.Alphabetical.Reverse }}
   <div class="series">
     {{ .Name }}
-    <i data-feather="film"></i>
+    <!-- <i data-feather="film"></i> -->
   </div>
   <ul>
     {{ range .Pages.ByDate.Reverse }}

@@ -2,7 +2,7 @@
 title: "chuan.us 网摘"
 date: 2025-05-13
 series:
-  - 书摘网摘
+  - 网摘
 ---
 
 ## [王川：随感合集 – 回报递增  / 时间压力 / 聪明和智慧 / 认知和自信](https://chuan.us/archives/12)
