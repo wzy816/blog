@@ -9,7 +9,7 @@
     <li>
       <a href="{{ .RelPermalink }}">{{.Title}}</a>
       <time>{{ dateFormat "01-02" .Date }}</time>
-      {{ $series := index .Params.series 0 }} {{ if hasSuffix $series "摘" }}
+      {{ if hasSuffix .Params.series "摘" }}
       <i data-feather="book" class="series-icon"></i>
       {{ else }}
       <i data-feather="pen-tool" class="series-icon"></i>

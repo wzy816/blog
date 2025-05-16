@@ -1,8 +1,7 @@
 ---
 title: "why blog"
 date: 2024-02-02
-series:
-  - life & work
+series: life & work
 ---
 
 所以为什么想重新开始写 blog？
