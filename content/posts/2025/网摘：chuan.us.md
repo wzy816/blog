@@ -1,5 +1,5 @@
 ---
-title: "chuan.us 网摘"
+title: 网摘：chuan.us
 date: 2025-05-13
 series: 网摘
 ---
