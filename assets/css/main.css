@@ -262,7 +262,8 @@ footer {
 }
 
 .year {
-  margin-top: 4rem;
+  color: var(--graycolor);
+  margin-top: 2rem;
   /* margin-block-start: 1em;
   margin-block-end: 1em; */
 }
@@ -278,7 +279,10 @@ time {
   font-size: 1rem;
   font-weight: normal;
 }
-
+.category {
+  margin-top: 4rem;
+  color: var(--graycolor);
+}
 /* .description {
   margin-bottom: 4rem;
 } */

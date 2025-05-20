@@ -6,7 +6,7 @@
     <!-- <i data-feather="film"></i> -->
   </div>
   <ul>
-    {{ range .Pages.ByDate.Reverse }}
+    {{ range .Pages.ByDate }}
     <li>
       <a href="{{ .RelPermalink }}">{{.Title}}</a>
     </li>

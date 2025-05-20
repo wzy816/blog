@@ -1,23 +1,16 @@
 <main>
   {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-  {{ range $pages.GroupByDate "2006" "desc" }}
-  <div class="year">
-    <time>{{ .Key }} </time>
-  </div>
+  {{ range $pages.GroupByParam "category" "desc" }}
+  <div class="category">{{.Key}}</div>
   <ul>
     {{ range .Pages }}
     <li>
       <a href="{{ .RelPermalink }}">{{.Title}}</a>
-      <time>{{ dateFormat "01-02" .Date }}</time>
-      {{ if eq .Params.category "reading" }}
-      <i data-feather="book" class="series-icon"></i>
-      {{ else if eq .Params.category "writing" }}
-      <i data-feather="pen-tool" class="series-icon"></i>
-      {{ end }}
+      <time>{{ dateFormat "2006-01-02" .Date }}</time>
     </li>
     {{ end }}
   </ul>
-  {{ end }}
+  {{ end}}
   <script>
     feather.replace();
   </script>
