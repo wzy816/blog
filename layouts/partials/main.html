@@ -9,9 +9,9 @@
     <li>
       <a href="{{ .RelPermalink }}">{{.Title}}</a>
       <time>{{ dateFormat "01-02" .Date }}</time>
-      {{ if hasSuffix .Params.series "摘" }}
+      {{ if eq .Params.category "reading" }}
       <i data-feather="book" class="series-icon"></i>
-      {{ else }}
+      {{ else if eq .Params.category "writing" }}
       <i data-feather="pen-tool" class="series-icon"></i>
       {{ end }}
     </li>

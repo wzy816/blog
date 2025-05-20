@@ -255,8 +255,6 @@ footer {
 
 .series {
   margin-top: 4rem;
-  display: flex;
-  align-items: center;
   color: var(--graycolor);
   /* margin-top: 4rem; */
   /* margin-block-start: 2em;

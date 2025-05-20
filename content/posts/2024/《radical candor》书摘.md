@@ -1,7 +1,8 @@
 ---
-title: "《radical candor》书摘"
+title: 《radical candor》书摘
 date: 2024-06-30
 series: 书摘
+category: reading
 ---
 
 Kim Scott

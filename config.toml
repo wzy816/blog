@@ -13,13 +13,13 @@ enableEmoji = true
 home = ['html', 'rss']
 
 [params]
-mode="light" 
+mode = "light"
 subtitle = "excerpts and reflections, deviant ideas and intrusive thoughts."
-	
+
 [params.author]
 name = 'z'
 email = 'wzy816@gmail.com'
-	
+
 [frontmatter]
 date = ["lastmod", "date"]
 
@@ -30,4 +30,4 @@ limit = 7
 posts = "/:year/:month/:slug/"
 
 [taxonomies]
-  series = 'series'
+series = 'series'
