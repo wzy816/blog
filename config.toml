@@ -11,6 +11,9 @@ enableEmoji = true
 
 [outputs]
 home = ['html', 'rss']
+section = ['html']
+taxonomy = ['html']
+term = ['html']
 
 [params]
 mode = "light"

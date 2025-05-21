@@ -6,7 +6,7 @@
   --draftlabel: #831f65;
 
   --blackcolor: #311d3f;
-  --graycolor: #878682;
+  --graycolor: #999999;
   --whitecolor: #f1f1f1;
   --bordercolor: #e5e4e0;
 }
@@ -55,6 +55,7 @@ a[href^="/blog/"] {
   border-bottom: 3px solid var(--maincolor);
   background: none;
 }
+
 a {
   color: inherit;
   text-decoration: None;
@@ -245,13 +246,13 @@ footer {
   padding: var(--footer-padding);
 } */
 
-.series-icon {
+/* .series-icon {
   color: var(--graycolor);
   stroke-width: 2px;
   vertical-align: middle;
   width: 16px;
   margin-bottom: 2px;
-}
+} */
 
 .series {
   margin-top: 4rem;

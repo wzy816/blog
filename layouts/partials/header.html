@@ -4,8 +4,11 @@
     <!-- {{ range .Site.Menus.main }}
     <a href="{{ .URL }}">{{ .Name }}</a>
     {{ end }} -->
-    <a href="{{.Site.BaseURL}}series"><i data-feather="film"></i></a>
+
+    <!-- <a href="{{.Site.BaseURL}}series"><i data-feather="film"></i></a> -->
+
     <a href="{{.Site.BaseURL}}index.xml"><i data-feather="rss"></i></a>
+
     <!-- {{ if eq .Site.Params.mode "toggle" -}} |
     <span id="dark-mode-toggle" onclick="toggleTheme()"></span>
     <script src="{{ .Site.BaseURL }}js/themetoggle.js"></script>

@@ -2,10 +2,8 @@
 <main>
   <div id="progress-bar"></div>
   <article>
-    <div>
-      <h1>{{ .Title }}</h1>
-      <time>{{ .Date | time.Format "2006-01-02" }}</time>
-    </div>
+    <h1>{{ .Title }}</h1>
+    <!-- <time>{{ .Date | time.Format "2006-01-02" }}</time> -->
     <section class="body">{{ .Content }}</section>
   </article>
 </main>
