@@ -1,0 +1,21 @@
+<main>
+  {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+  {{ range $i, $e := $pages.GroupByParam "category" "desc" }}
+  <!-- <div class="category">{{.Key}}</div> -->
+  {{ if $i }}
+  <br />
+  <br />
+  {{ end }}
+  <ul>
+    {{ range.Pages }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{.Title}}</a>
+      <time>{{ dateFormat "Jan 2, 2006" .Date }}</time>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+  <script>
+    feather.replace();
+  </script>
+</main>
