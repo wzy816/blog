@@ -263,7 +263,7 @@ footer {
   content: "🏷 ";
 } */
 
-time {
+.time {
   color: var(--graycolor);
   /* letter-spacing: -0.5px; */
   /* font-family: "Source Sans", "Chinese Quote", monospace;
