@@ -18,6 +18,7 @@ term = ['html']
 [params]
 mode = "light"
 subtitle = "excerpts and reflections, deviant ideas and intrusive thoughts."
+mathjax = true
 
 [params.author]
 name = 'z'

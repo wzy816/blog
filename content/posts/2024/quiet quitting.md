@@ -2,7 +2,6 @@
 title: "quiet quitting"
 date: 2024-05-30
 lastmod: 2024-06-15
-series: life & work
 category: writing
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: llm 的越狱
 date: 2024-11-06
-series: life & work
+series: llm
 category: writing
 ---
 

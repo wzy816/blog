@@ -246,13 +246,18 @@ footer {
   padding: var(--footer-padding);
 } */
 
-/* .series-icon {
+.series-icon {
   color: var(--graycolor);
   stroke-width: 2px;
   vertical-align: middle;
   width: 16px;
   margin-bottom: 2px;
-} */
+}
+
+.series {
+  margin-top: 4rem;
+  color: var(--graycolor);
+}
 
 .category {
   margin-top: 4rem;

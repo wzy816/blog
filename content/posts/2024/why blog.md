@@ -1,7 +1,6 @@
 ---
 title: "why blog"
 date: 2024-02-02
-series: life & work
 category: writing
 ---
 

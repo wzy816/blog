@@ -1,14 +1,12 @@
 {{ define "main" }}
 <main>
-  {{ range .Site.Taxonomies.series.Alphabetical.Reverse }}
-  <div class="series">
-    {{ .Name }}
-    <!-- <i data-feather="film"></i> -->
-  </div>
+  {{ range .Site.Taxonomies.series.Alphabetical }}
+  <div class="series">{{ .Name }}</div>
   <ul>
-    {{ range .Pages.ByDate }}
+    {{ range .Pages.ByDate.Reverse }}
     <li>
       <a href="{{ .RelPermalink }}">{{.Title}}</a>
+      <span class="time">{{ dateFormat "Jan 2, 2006" .Date }}</span>
     </li>
     {{ end }}
   </ul>
