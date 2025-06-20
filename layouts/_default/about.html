@@ -1,0 +1,10 @@
+{{ define "main" }}
+<main>
+  <div id="progress-bar"></div>
+  <article>
+    <h1>{{ .Title }}</h1>
+    <span class="time">{{ dateFormat "Jan 2, 2006" .Date }}</span>
+    <section class="body">{{ .Content }}</section>
+  </article>
+</main>
+{{ end }}

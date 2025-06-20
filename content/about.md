@@ -1,5 +1,14 @@
 ---
 title: "about"
+layout: "about"
+date: 2025-06-20
 ---
 
-tbd
+- 我 2015 年回国后一直都在上海，偶尔到处瞎逛；纵然有很多 noise ，我坚信在我的有生之年，中国是世界的未来；
+- I believe in [effective accelerationism](https://en.wikipedia.org/wiki/Effective_accelerationism)  over effective altruism，但是保就业也很重要；
+- 我每天早晨都喝咖啡（首选拿铁），然后活力满满地写代码赚钱，发了工资再买咖啡，这是我的存活模型；我以前画的图用咖啡粉打印，现在写的代码靠咖啡因运行；我的血液里都是咖啡液，我是咖啡基（机）生物；
+- 我每天必做两件事，一是接触新的idea，看新的paper/代码/文章/美剧/设计/图像/书等等；二是有一些自己的空间和时间，保持距离，维持独立性；
+- [The first post](/blog/why-blog/) explained how everything here started；
+- 我做过最浪费时间的非正业，是玩[缺氧游戏](https://store.steampowered.com/app/457140/_/)，其次是拼乐高机械组；
+- 我的人生基本被好奇心驱动；我快速学习新领域的办法就是穷举；
+- [这篇文字](/blog/建筑转码-monologue/)大概覆盖了我过去 20 年时间的经历;
