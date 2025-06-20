@@ -10,6 +10,6 @@ date: 2025-06-20
 - 我每天必做两件事，一是接触新的 idea，看新的 paper/代码/博客/美剧/设计/图像/书等等；二是有一些自己的空间和时间，保持距离和安静，维持个体的独立性；
 - [The first post](/blog/why-blog/) explained how everything started here；I'm glad that I take on this journey;
 - 我的人生基本被好奇心驱动；我快速学习新领域的办法就是穷举；
-- 我做过最浪费时间的非正业，是玩[缺氧游戏](https://store.steampowered.com/app/457140/_/)，其次是拼乐高机械组；
+- 我做过最浪费时间的非正业，是玩[缺氧游戏](https://store.steampowered.com/app/457140/_/)，其次是拼[乐高机械组](https://www.lego.com/en-us/themes/technic)；
 - [这篇文字](/blog/建筑转码-monologue/)大概覆盖了我过去 20 年时间的经历；
 - to be continued
