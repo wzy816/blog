@@ -336,7 +336,7 @@ svg {
   background-color: var(--bordercolor);
 } */
 
-/* .highlight {
+.highlight {
   position: relative;
   -webkit-overflow-scrolling: touch;
 }
@@ -359,6 +359,7 @@ svg {
   top: 0;
 }
 
+/*
 .highlight pre code[class="language-javaScript"]::before,
 .highlight pre code[class="language-js"]::before {
   content: "js";
@@ -422,7 +423,7 @@ table {
 table th {
   padding: 6px 13px;
   border: 1px solid var(--bordercolor);
-  font-size: large;
+  font-size: 15px;
 }
 
 table td {
