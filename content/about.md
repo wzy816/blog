@@ -15,6 +15,6 @@ date: 2025-06-20
 
 ## about the blog
 
-- [The first post](/blog/why-blog/) explained how everything started here；
-- [这篇文字](/blog/建筑转码-monologue/)大概覆盖了我过去 20 年时间读书转专业工作转行的经历；
+- [The first post](/blog/2024/02/why-blog/) explained how everything started here；
+- [这篇文字](/blog/2024/02/建筑转码-monologue/)大概覆盖了我过去 20 年时间读书转专业工作转行的经历；
 - 那些没有在[series](/blog/series)的 writing，自成一个隐匿的 series；
