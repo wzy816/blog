@@ -1,17 +1,17 @@
 <main>
-  <h1>All Articles</h1>
+  <h1>all articles</h1>
   {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-  <!-- {{ range $i, $e := $pages.GroupByParam "category" "desc" }}
-  <h2>{{.Key}}</h2> -->
+  {{ range $i, $e := $pages.GroupByParam "category" "desc" }}
+  <h2>{{.Key}}</h2>
   <ul>
-    {{ range $pages.ByDate.Reverse }}
+    {{ range $e.ByDate.Reverse }}
     <li>
       <a href="{{ .RelPermalink }}">{{.Title}}</a>
       <span class="time">{{ dateFormat "2006-01-02" .Date }}</span>
     </li>
     {{ end }}
   </ul>
-  <!-- {{ end }} -->
+  {{ end }}
   <script>
     feather.replace();
   </script>

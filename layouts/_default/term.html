@@ -1,6 +1,6 @@
 {{ define "main" }}
 <main>
-  <h1>Articles in series <span class="series">{{ .Data.Term }}</span></h1>
+  <h1>articles in series <span class="series">{{ .Data.Term }}</span></h1>
   <ul>
     {{ range .Pages.ByDate.Reverse }}
     <li>
