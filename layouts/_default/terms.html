@@ -4,7 +4,7 @@
   <ul>
   {{ range .Site.Taxonomies.series.Alphabetical }}
     <li>
-      <a class="series" href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a>
+      <a class="series" href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
       {{ .Count }}
     </li>
   {{ end }}
