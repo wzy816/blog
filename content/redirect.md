@@ -1,5 +1,5 @@
 ---
-title: "Redirect to"
+title: "redirect to"
 layout: "redirect"
 ---
 

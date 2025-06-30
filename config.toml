@@ -9,6 +9,8 @@ pygmentscodefencesguesssyntax = true
 
 enableEmoji = true
 
+titleCaseStyle = "none"
+
 [outputs]
 home = ['html', 'rss']
 section = ['html']
