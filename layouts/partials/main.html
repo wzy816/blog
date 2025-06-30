@@ -1,4 +1,5 @@
 <main>
+  <h1>All Articles</h1>
   {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
   <!-- {{ range $i, $e := $pages.GroupByParam "category" "desc" }}
   <h2>{{.Key}}</h2> -->

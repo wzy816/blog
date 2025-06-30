@@ -266,7 +266,7 @@ footer {
 
 .meta {
   color: var(--graycolor);
-  margin-bottom: 4em;
+  /* margin-bottom: 4em; */
 }
 
 .time {
