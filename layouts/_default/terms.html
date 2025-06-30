@@ -1,16 +1,14 @@
 {{ define "main" }}
 <main>
-  {{ range .Site.Taxonomies.series.Alphabetical }}
-  <div class="series">{{ .Name }}</div>
+  <h1>All Series</h1>
   <ul>
-    {{ range .Pages.ByDate.Reverse }}
+  {{ range .Site.Taxonomies.series.Alphabetical }}
     <li>
-      <a href="{{ .RelPermalink }}">{{.Title}}</a>
-      <span class="time">{{ dateFormat "Jan 2, 2006" .Date }}</span>
+      <a class="series" href="{{ relURL "series/" }}{{ .Page.LinkTitle }}">{{ .Page.LinkTitle }}</a>
+      {{ .Count }}
     </li>
-    {{ end }}
-  </ul>
   {{ end }}
+  </ul>
 </main>
 <script>
   feather.replace();

@@ -16,6 +16,8 @@ html {
   font-family: "Source Sans", "Chinese Quote", monospace;
   font-size: 15px;
   line-height: 1.6em;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 body {
@@ -246,27 +248,26 @@ footer {
   padding: var(--footer-padding);
 } */
 
-.series-icon {
+/* .gray-icon {
   color: var(--graycolor);
   stroke-width: 2px;
   vertical-align: middle;
   width: 16px;
   margin-bottom: 2px;
-}
-
-.series {
-  margin-top: 4rem;
-  color: var(--graycolor);
-}
-
-.category {
-  margin-top: 4rem;
-  color: var(--graycolor);
-}
+} */
 
 /* .tag::before {
   content: "🏷 ";
 } */
+
+.series {
+  font-style: italic;
+}
+
+.meta {
+  color: var(--graycolor);
+  margin-bottom: 4em;
+}
 
 .time {
   color: var(--graycolor);
