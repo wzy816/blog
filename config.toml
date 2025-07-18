@@ -21,6 +21,7 @@ term = ['html']
 mode = "light"
 subtitle = "excerpts and reflections, deviant ideas and intrusive thoughts."
 mathjax = true
+favicon = "favicon.ico"
 
 [params.author]
 name = 'z'
