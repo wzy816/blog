@@ -6,9 +6,8 @@
   <title>{{ $siteTitle }}</title>
   {{ else }}
   <title>{{ $title }} - {{ $siteTitle }}</title>
-  {{ end }} {{ if isset .Site.Params "favicon" }}
-  <link rel="icon" type="image/png" href="{{ .Site.Params.favicon }}" />
   {{ end }}
+  <link rel="icon" type="image/x-icon" href="{{ .Site.BaseURL }}favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- <meta
     name="description"
