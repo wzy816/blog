@@ -1,5 +1,5 @@
 ---
-title: llm 的 weird prompt
+title: llm 的 prompt
 date: 2025-07-20
 series: llm
 category: writing
