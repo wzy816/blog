@@ -1,11 +1,14 @@
 ---
 title: llm 的 prompt
 date: 2025-07-20
+lastmod: 2025-07-24
 series: llm
 category: writing
 ---
 
-以下是我收集的一些充分体现了我 weird taste 的 weird prompt，各有妙用。
+以下是我收集的一些充分体现了我 weird taste 的勇猛的 prompt，各有妙用。
+
+(刚看到了这个 [Claude Code System Prompts](https://github.com/shareAI-lab/analysis_claude_code/blob/main/claude_code_v_1.0.33/stage1_analysis_workspace/docs/claudeCode_prompt_list.md)，我觉得我格局小了。)
 
 ## 开启 chatgpt o1 的“狂暴模式”
 
