@@ -1,7 +1,7 @@
 ---
 title: "about"
 date: 2025-06-20
-lastmod: 2025-07-12
+lastmod: 2025-08-01
 ---
 
 ## about me
@@ -19,3 +19,4 @@ lastmod: 2025-07-12
 - [这篇文字](/blog/2024/02/建筑转码-monologue/) 大概覆盖了我过去 20 年时间读书转专业、工作转行的经历；
 - [This](/blog/2024/04/team-spirit-胡诌/) is my work ethic and 职场 bible；[这些](/blog/series/职场怪诞/) 是我的工作喜剧；
 - 那些没有在 series 的 writing，自成一个隐匿的 series；
+- 那些墙裂推荐或者是强烈共鸣的 reading，在每月文摘里标记了 ⭐。
