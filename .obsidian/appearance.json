@@ -1,0 +1,8 @@
+{
+  "showRibbon": false,
+  "cssTheme": "Catppuccin",
+  "baseFontSize": 15,
+  "theme": "moonstone",
+  "showViewHeader": false,
+  "monospaceFontFamily": "Cascadia Mono"
+}

@@ -1,0 +1,11 @@
+{
+  "showInlineTitle": true,
+  "autoConvertHtml": false,
+  "vimMode": true,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "showUnsupportedFiles": true,
+  "showLineNumber": true,
+  "attachmentFolderPath": "./",
+  "newFileLocation": "current"
+}
