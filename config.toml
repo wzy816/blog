@@ -33,7 +33,8 @@ date = ["lastmod", "date"]
 limit = 7
 
 [permalinks]
-posts = "/:year/:month/:slug/"
+writings = "/:year/:month/:slug/"
+readings = "/:year/:month/:slug/"
 
 [taxonomies]
 series = 'series'

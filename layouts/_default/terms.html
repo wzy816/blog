@@ -2,12 +2,12 @@
 <main>
   <h1>all series</h1>
   <ul>
-  {{ range .Site.Taxonomies.series.Alphabetical }}
+    {{ range .Site.Taxonomies.series.Alphabetical }}
     <li>
       <a class="series" href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a>
-      <span>{{ .Count }}</span>
+      <!-- <span>{{ .Count }}</span> -->
     </li>
-  {{ end }}
+    {{ end }}
   </ul>
 </main>
 <script>
