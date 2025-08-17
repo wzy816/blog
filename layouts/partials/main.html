@@ -1,8 +1,5 @@
 <main>
-  <!-- <h1>all articles</h1> -->
-  {{ .Site.Sections }}
-  {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-  {{ $pages = where $pages "Params.category" "eq" "writing" }}
+  {{ $pages := where .Site.RegularPages "Section" "eq" "writings"}}
   <ul>
     {{ range $pages }}
     <li>
