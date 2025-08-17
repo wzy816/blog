@@ -1,6 +1,7 @@
 {{ define "main" }}
 <main>
-  <h1>articles in series <span class="series">{{ .Data.Term }}</span></h1>
+  <h1>{{ .Pages.Len }} {{ if (gt .Pages.Len 1) }} articles {{ else }} article {{ end }}
+    in series <span class="series">{{ .Data.Term }}</span></h1>
   <ul>
     {{ range .Pages.ByDate.Reverse }}
     <li>
