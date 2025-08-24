@@ -1,7 +1,6 @@
 baseURL = "https://wzy816.github.io/blog"
 
 title = "z blog"
-copyright = "cc by-nc-sa 4.0"
 
 pygmentsstyle = "monokai"
 pygmentscodefences = true

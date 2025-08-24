@@ -13,7 +13,7 @@ lastmod: 2025-08-21
 - 我的人生轨迹在我有自主意识后，大多都被自己的好奇心驱动；我快速学习新领域的办法就是穷举；
 - 我做过最浪费时间的非正业，是玩 [缺氧游戏](https://store.steampowered.com/app/457140/_/)，其次是拼 [乐高机械组](https://www.lego.com/en-us/themes/technic)；它们已经上了戒断清单但偶尔还会发作。
 
-## about blog
+## about the blog
 
 - The first [post](/blog/2024/why-blog/) explained how everything started here; the rationale still stands;
 - [这篇文字](/blog/2024/建筑转码-monologue/) 大概覆盖了我过去 20 年时间读书转专业、工作转行的经历；
@@ -21,6 +21,6 @@ lastmod: 2025-08-21
 
 ## about license
 
-- This blog is licensed under [WTFPL](https://www.wtfpl.net/)。最终我选择了为电发爱；
-- 如果你抄袭，那就是对我最大的赞美；如果你对外声称这是你写的，你就是我的克隆人，我得以永生；如果你还能续写，续写很难还是算了吧。
+- This blog is licensed under [WTFPL](https://www.wtfpl.net/)。我选择为电发爱；
+- 如果你抄袭，那就是对我最大的赞美；如果你对外声称这是你写的，你就是我的克隆人，我得以永生；如果你续写，续写太难了还是算了吧。
 - Whatever you did with this blog, I'm curious to know. Reach me at wzy816 at gmail dot com. No reply though, probably.
