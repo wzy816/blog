@@ -1,0 +1,14 @@
+{{ define "main" }}
+<main>
+  <h1>{{ .Pages.Len }} {{ if (gt .Pages.Len 1) }} articles {{ else }} article {{ end }}
+    in series <span class="series">{{ .Data.Term }}</span></h1>
+  <ul>
+    {{ range .Pages.ByDate.Reverse }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{.Title}}</a>
+      <span class="time">{{ dateFormat "2006-01-02" .Date }}</span>
+    </li>
+    {{ end }}
+  </ul>
+</main>
+{{ end }}
