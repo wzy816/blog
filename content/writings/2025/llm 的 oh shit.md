@@ -50,7 +50,7 @@ oh shit 是 advanced aha。
 
 加了 42 的 reward。用了默认的 system prompt。
 
-totaly not working。训练全过程无任何变化，模型的 reward 反复在上蹿下跳。
+totally not working。训练全过程无任何变化，模型的 reward 反复在上蹿下跳。
 
 我的理解是，如果寄期望于模型在有限的 generation 里，纯靠 luck 来碰巧输出一个 42 借机给奖励优化，是基本不可能的。
 
