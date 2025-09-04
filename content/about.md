@@ -1,7 +1,7 @@
 ---
-title: "about"
+title: about
 date: 2025-06-20
-lastmod: 2025-08-21
+lastmod: 2025-09-04
 ---
 
 ## about me
@@ -21,6 +21,6 @@ lastmod: 2025-08-21
 
 ## about license
 
-- This blog is licensed under [WTFPL](https://www.wtfpl.net/)。我选择为电发爱；
+- This blog is licensed under [WTFPL](https://www.wtfpl.net/)。我选择为电发爱 [never monetize](https://nevermonetize.com/)；
 - 如果你抄袭，那就是对我最大的赞美；如果你对外声称这是你写的，你就是我的克隆人，我得以永生；如果你续写，续写太难了还是算了吧。
 - Whatever you did with this blog, I'm curious to know. Reach me at wzy816 at gmail dot com. No reply though, probably.

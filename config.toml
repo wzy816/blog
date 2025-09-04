@@ -1,6 +1,6 @@
 baseURL = "https://wzy816.github.io/blog"
 
-title = "z blog"
+title = "z's blog"
 
 pygmentsstyle = "monokai"
 pygmentscodefences = true
