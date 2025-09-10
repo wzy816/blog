@@ -1,7 +1,7 @@
 ---
 title: about
 date: 2025-06-20
-lastmod: 2025-09-04
+lastmod: 2025-09-10
 ---
 
 ## about me
@@ -15,12 +15,7 @@ lastmod: 2025-09-04
 
 ## about the blog
 
-- The first [post](/blog/2024/why-blog/) explained how everything started here; the rationale still stands;
-- [这篇文字](/blog/2024/建筑转码-monologue/) 大概覆盖了我过去 20 年时间读书转专业、工作转行的经历；
-- [This](/blog/2024/team-spirit-胡诌/) is my work ethic and 职场 bible；[这些](/blog/series/职场怪诞/) 是我的工作喜剧。
-
-## about license
-
+- blog 分为 [writing](/blog/writings) (也就是首页）和 [reading](/blog/readings) 。一部分文章形成了 [series](/blog/series/)；
+- The first [post](/blog/2024/why-blog/) explained how everything started here； the rationale still stands；[这篇](/blog/2024/建筑转码-monologue/) 大概覆盖了我过去 20 年时间读书转专业、工作转行的经历；[this](/blog/2024/team-spirit-胡诌/) is my work ethic and 职场 bible；[这些](/blog/series/职场怪诞/) 是我的工作喜剧；
 - This blog is licensed under [WTFPL](https://www.wtfpl.net/)。我选择为电发爱 [never monetize](https://nevermonetize.com/)；
-- 如果你抄袭，那就是对我最大的赞美；如果你对外声称这是你写的，你就是我的克隆人，我得以永生；如果你续写，续写太难了还是算了吧。
-- Whatever you did with this blog, I'm curious to know. Reach me at wzy816 at gmail dot com. No reply though, probably.
+- 如果你抄袭，那就是对我最大的赞美；如果你对外声称这是你写的，你就是我的克隆人，我得以永生；如果你续写，续写太难了还是算了吧。Whatever you did with this blog, I'm curious to know. Reach me at wzy816 at gmail dot com. No reply though, probably.
