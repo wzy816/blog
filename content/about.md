@@ -15,15 +15,15 @@ lastmod: 2025-09-17
 
 ## about now
 
-- 圣经 to keep in mind
+- to keep in mind
   - 韧性、顿感，保持高能量和生命力
   - 松弛，好奇心
   - 持续积累，抵御风险
-- 最小化 to minimize
-  - 游戏 nhs oni cyberpunk deathstranding wukong
+- to minimize
+  - 玩游戏 no man's sky / oxygen not included / cyberpunk / death stranding / wukong
   - 拼乐高
   - 无效的职场社交/内耗的亲密关系/没有边界的亲情
-  - 上瘾 social platform/内容 app
+  - 上瘾 app / 内容 platform
 
 ## about the blog
 
