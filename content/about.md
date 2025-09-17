@@ -1,7 +1,7 @@
 ---
 title: about
 date: 2025-06-20
-lastmod: 2025-09-10
+lastmod: 2025-09-17
 ---
 
 ## about me
@@ -12,6 +12,18 @@ lastmod: 2025-09-10
 - 我每天必做两件事，一是接触新的 idea，看听新的 paper/代码/博客/podcast/美剧/图像/书/音乐等等；二是有一些自己的空间和时间，保持距离和安静，维持个体的独立性。如果做不了就浑身不舒服；
 - 我的人生轨迹在我有自主意识后，大多都被自己的好奇心驱动；我快速学习新领域的办法就是穷举；
 - 我做过最浪费时间的非正业，是玩 [缺氧游戏](https://store.steampowered.com/app/457140/_/)，其次是拼 [乐高机械组](https://www.lego.com/en-us/themes/technic)；它们已经上了戒断清单但偶尔还会发作。
+
+## about now
+
+- 圣经 to keep in mind
+  - 韧性、顿感，保持高能量和生命力
+  - 松弛，好奇心
+  - 持续积累，抵御风险
+- 最小化 to minimize
+  - 游戏 nhs oni cyberpunk deathstranding wukong
+  - 拼乐高
+  - 无效的职场社交/内耗的亲密关系/没有边界的亲情
+  - 上瘾 social platform/内容 app
 
 ## about the blog
 
