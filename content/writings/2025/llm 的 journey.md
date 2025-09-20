@@ -1,5 +1,5 @@
 ---
-title: llm 的 journey 1
+title: llm 的 journey
 date: 2025-09-20
 series: llm
 ---
