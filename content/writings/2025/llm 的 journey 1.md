@@ -1,5 +1,5 @@
 ---
-title: my journey on gpt and beyond
+title: llm 的 journey 1
 date: 2025-09-20
 series: llm
 ---
