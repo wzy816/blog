@@ -1,0 +1,20 @@
+{{ define "main" }}
+<main>
+  <article>
+    <h1>{{ .Title }}</h1>
+    <a href="" class="redirect-button" id="redirect-link"></a>
+    <section>{{ .Content }}</section>
+  </article>
+</main>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const encodedTarget = params.get("target");
+  const target = atob(encodedTarget);
+
+  if (target) {
+    const ele = document.getElementById("redirect-link");
+    ele.href = target;
+    ele.textContent = "" + target;
+  }
+</script>
+{{ end }}
