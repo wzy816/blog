@@ -1,0 +1,31 @@
+{{- $pages := .Site.RegularPages }}
+{{- $pages = where (where $pages ".Draft" "eq" false) ".Section" "eq" "writings"}}
+{{- $pages = $pages | first .Site.Config.Services.RSS.Limit }}
+{{- printf "<?xml version= \"1.0\" encoding= \"utf-8\" standalone= \"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ .Site.Title }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Recent content {{ .Site.Title }}</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>{{ site.Language.LanguageCode }}</language>
+    <managingEditor>{{ site.Author.name }} ({{ site.Author.email }})</managingEditor>
+    <webMaster>{{ site.Author.name }} ({{ site.Author.email }})</webMaster>
+    <copyright>{{ .Site.Copyright }}</copyright>
+    {{ if not .Date.IsZero }}<lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    {{- with .OutputFormats.Get "RSS" }}{{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}{{- end }}
+    {{- range $pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      {{ with .Params.lastmod }}
+        <pubDate>{{ .Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
+      {{ else }}
+        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
+      {{ end }}
+      <guid>{{ .Permalink }} {{.Date}}</guid>
+      <description>{{ .Content | html }}</description>
+    </item>
+    {{- end }}
+  </channel>
+</rss>

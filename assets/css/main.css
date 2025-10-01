@@ -1,0 +1,441 @@
+/* Markdown */
+:root {
+  --maincolor: #e73828;
+  --linkcolor: #e7382844;
+  --hovercolor: #1a4c74;
+  --draftlabel: #831f65;
+
+  --blackcolor: #311d3f;
+  --graycolor: #999999;
+  --whitecolor: #f1f1f1;
+  --bordercolor: #e5e4e0;
+}
+
+html {
+  color: var(--blackcolor);
+  font-family: "Source Sans", "Chinese Quote", monospace;
+  font-size: 15px;
+  line-height: 1.6em;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  display: block;
+  margin: 8px;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+::selection {
+  background: var(--maincolor);
+  color: var(--whitecolor);
+}
+
+p {
+  font-family: "Source Sans", "Chinese Quote", monospace;
+  font-size: 15px;
+  line-height: 1.5em;
+  margin-block-start: 2em;
+  margin-block-end: 2em;
+}
+
+blockquote {
+  border-left: 4px solid var(--bordercolor);
+  color: var(--graycolor);
+  margin: 0;
+  padding-left: 1em;
+}
+
+a[href*="localhost"],
+a[href*="wzy816.github.io"],
+a[href^="/blog/"] {
+  color: inherit;
+  text-decoration: None;
+  border-bottom: 3px solid var(--maincolor);
+  background: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: None;
+  background: linear-gradient(
+    180deg,
+    transparent 0 55%,
+    var(--linkcolor) 55% 85%,
+    transparent 85% 100%
+  );
+  border: none;
+}
+
+a:hover {
+  background: var(--hovercolor);
+  color: var(--whitecolor);
+  border-bottom: 3px solid var(--hovercolor);
+  border-top: 3px solid var(--hovercolor);
+}
+
+ul {
+  list-style: none;
+  padding-left: 2ch;
+}
+
+ul li {
+  text-indent: -2ch;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+ul > li::before {
+  content: "* ";
+  font-weight: bold;
+  color: var(--maincolor);
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* Images */
+img {
+  border: 4px solid var(--bordercolor);
+  max-width: 100%;
+}
+
+figure {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  max-width: 100%;
+}
+
+figure img {
+  max-height: 500px;
+}
+
+@media screen and (min-width: 600px) {
+  figure {
+    padding: 0 40px;
+  }
+}
+
+figure h4 {
+  font-size: 1rem;
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+figure h4::before {
+  content: "↳ ";
+}
+
+/* Code blocks */
+code {
+  background-color: var(--whitecolor);
+  padding: 0.1em 0.2em;
+}
+
+pre {
+  background-color: var(--whitecolor);
+  line-height: 1.4;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+.highlight pre ::selection {
+  background: rgba(255, 255, 255, 0.2);
+  color: inherit;
+}
+
+pre code {
+  background-color: transparent;
+  color: inherit;
+  font-size: 100%;
+  padding: 0;
+}
+
+/* Header */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2em 0 4em;
+  line-height: 2.5em;
+}
+
+header .title {
+  font-size: 1.5rem;
+}
+
+/* Containers */
+.content {
+  margin-bottom: 4em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 640px;
+  padding: 0 1ch;
+  word-wrap: break-word;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1.2rem;
+  margin-top: 2em;
+}
+
+h1::before {
+  color: var(--maincolor);
+  content: "# ";
+}
+
+h2::before {
+  color: var(--maincolor);
+  content: "## ";
+}
+
+h3::before {
+  color: var(--maincolor);
+  content: "### ";
+}
+
+h4::before {
+  color: var(--maincolor);
+  content: "#### ";
+}
+
+h5::before {
+  color: var(--maincolor);
+  content: "##### ";
+}
+
+h6::before {
+  color: var(--maincolor);
+  content: "###### ";
+}
+
+/* Footer */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 0.2rem dotted var(--bordercolor);
+  padding: 1rem 0rem;
+  margin: 1em 0;
+  margin-top: 4rem;
+}
+
+/* .soc {
+  display: flex;
+  align-items: center;
+  border-bottom: none;
+} */
+
+/* .border {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid;
+} */
+
+/* .footer-info {
+  padding: var(--footer-padding);
+} */
+
+/* .gray-icon {
+  color: var(--graycolor);
+  stroke-width: 2px;
+  vertical-align: middle;
+  width: 16px;
+  margin-bottom: 2px;
+} */
+
+/* .tag::before {
+  content: "🏷 ";
+} */
+
+.series {
+  font-style: italic;
+}
+
+.meta {
+  color: var(--graycolor);
+  /* margin-bottom: 4em; */
+}
+
+.time {
+  color: var(--graycolor);
+  /* letter-spacing: -0.5px; */
+  /* font-family: "Source Sans", "Chinese Quote", monospace;
+  font-size: 1rem;
+  font-weight: normal; */
+}
+
+/* .description {
+  margin-bottom: 4rem;
+} */
+
+/* Posts */
+/* article .title {
+  margin-bottom: 1em;
+} */
+
+/* Callout */
+/* .callout {
+  background-color: var(--callouctcolor);
+  color: #fff;
+  padding: 1em;
+}
+
+.callout p {
+  margin: 0;
+}
+
+.callout a {
+  border-bottom: 4px solid #fff;
+}
+
+.callout a:hover {
+  background-color: #fff;
+  color: var(--callouctcolor);
+} */
+
+/* .site-subtitle {
+  display: flex;
+  justify-content: space-between;
+} */
+
+/* .tags a {
+  border-bottom: 3px solid var(--maincolor);
+} */
+
+/* .tags a:hover {
+  color: white;
+  background-color: var(--hovercolor);
+} */
+
+svg {
+  max-height: 15px;
+}
+
+/* .soc:hover {
+  color: white;
+} */
+
+/* .draft-label {
+  color: var(--draftlabel);
+  text-decoration: none;
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin-left: 6px;
+  background-color: var(--bordercolor);
+} */
+
+.highlight {
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+}
+
+.highlight pre code[class*="language-"] {
+  -webkit-overflow-scrolling: touch;
+}
+
+.highlight pre code[class*="language-"]::before {
+  background: var(--blackcolor);
+  border-radius: 0 0 0.25rem 0.25rem;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 0.025rem;
+  padding: 0.1rem 0.5rem;
+  position: absolute;
+  right: 1rem;
+  text-align: right;
+  text-transform: uppercase;
+  top: 0;
+}
+
+/*
+.highlight pre code[class="language-javaScript"]::before,
+.highlight pre code[class="language-js"]::before {
+  content: "js";
+  background: #f7df1e;
+  color: black;
+}
+
+.highlight pre code[class*="language-yml"]::before,
+.highlight pre code[class*="language-yaml"]::before {
+  content: "yaml";
+  background: #f71e6a;
+  color: white;
+}
+
+.highlight pre code[class*="language-shell"]::before,
+.highlight pre code[class*="language-bash"]::before,
+.highlight pre code[class*="language-sh"]::before {
+  content: "shell";
+  background: green;
+  color: white;
+}
+
+.highlight pre code[class*="language-json"]::before {
+  content: "json";
+  background: dodgerblue;
+  color: #000000;
+}
+
+.highlight pre code[class*="language-python"]::before,
+.highlight pre code[class*="language-py"]::before {
+  content: "py";
+  background: blue;
+  color: yellow;
+}
+
+.highlight pre code[class*="language-css"]::before {
+  content: "css";
+  background: cyan;
+  color: black;
+}
+
+.highlight pre code[class*="language-go"]::before {
+  content: "Go";
+  background: cyan;
+  color: royalblue;
+}
+
+.highlight pre code[class*="language-md"]::before,
+.highlight pre code[class*="language-md"]::before {
+  content: "Markdown";
+  background: royalblue;
+  color: whitesmoke;
+} */
+
+/* table */
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+table th {
+  padding: 6px 13px;
+  border: 1px solid var(--bordercolor);
+  font-size: 15px;
+}
+
+table td {
+  padding: 6px 13px;
+  border: 1px solid var(--bordercolor);
+}
+
+#progress-bar {
+  width: 0%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background: linear-gradient(to right, var(--maincolor), var(--maincolor));
+}

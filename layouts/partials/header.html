@@ -1,0 +1,23 @@
+<header>
+  <div class="title">
+    <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+  </div>
+  <nav>
+    {{ range .Site.Menus.main }}
+    <a class="menu" href="{{ .URL }}">{{ .Name }}</a>
+    {{ end }}
+
+    <!-- <a href="{{ relURL "about/" }}"><i data-feather="info"></i></a>
+    <a href="{{ relURL "readings/" }}"><i data-feather="book"></i></a>
+    <a href="{{ relURL "index.xml"}}"><i data-feather="rss"></i></a> -->
+
+    <!-- {{ if eq .Site.Params.mode "toggle" -}} |
+    <span id="dark-mode-toggle" onclick="toggleTheme()"></span>
+    <script src="{{ .Site.BaseURL }}js/themetoggle.js"></script>
+    {{ end }} -->
+  </nav>
+  <div>{{ .Site.Params.Subtitle | markdownify }}</div>
+  <!-- <script>
+    feather.replace();
+  </script> -->
+</header>
