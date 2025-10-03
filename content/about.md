@@ -13,18 +13,6 @@ lastmod: 2025-09-17
 - 我的人生轨迹在我有自主意识后，大多都被自己的好奇心驱动；我快速学习新领域的办法就是穷举；
 - 我做过最浪费时间的非正业，是玩 [缺氧游戏](https://store.steampowered.com/app/457140/_/)，其次是拼 [乐高机械组](https://www.lego.com/en-us/themes/technic)；它们已经上了戒断清单但偶尔还会发作。
 
-## about now
-
-- to keep in mind
-  - 韧性、顿感，保持高能量和生命力
-  - 松弛，好奇心
-  - 持续积累，抵御风险
-- to minimize
-  - 玩游戏 no man's sky / oxygen not included / cyberpunk / death stranding / wukong
-  - 拼乐高
-  - 无效的职场社交/内耗的亲密关系/没有边界的亲情
-  - 上瘾 app / 内容 platform
-
 ## about the blog
 
 - blog 分为 [writings](/blog/writings) (也就是首页）和 [readings](/blog/readings) 。一部分文章形成了 [series](/blog/series/)；
