@@ -1,0 +1,48 @@
+baseURL = "https://wzy816.github.io/blog"
+
+title = "z's blog"
+
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+enableEmoji = true
+
+[menus]
+  [[menus.main]]
+    name = 'about'
+    pageRef = 'about'
+  [[menus.main]]
+    name = 'readings'
+    pageRef = 'readings'
+  [[menus.main]]
+    name = 'rss'
+    url = '/index.xml'
+
+[outputs]
+home = ['html', 'rss']
+section = ['html']
+taxonomy = ['html']
+term = ['html']
+
+[params]
+mode = "light"
+subtitle = "excerpts and reflections, deviant ideas and intrusive thoughts"
+mathjax = true
+
+[params.author]
+name = 'z'
+email = 'wzy816@gmail.com'
+
+[frontmatter]
+date = ["lastmod", "date"]
+
+[services.rss]
+limit = 7
+
+[permalinks]
+writings = "/:year/:slug/"
+readings = "/:year/:slug/"
+
+[taxonomies]
+series = 'series'

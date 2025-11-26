@@ -1,0 +1,14 @@
+<main>
+  {{ $pages := where .Site.RegularPages "Section" "eq" "writings"}}
+  <ul>
+    {{ range $pages }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{.Title}}</a>
+      <span class="time">{{ dateFormat "2006-01-02" .Date }}</span>
+    </li>
+    {{ end }}
+  </ul>
+  <!-- <script>
+    feather.replace();
+  </script> -->
+</main>

@@ -1,0 +1,16 @@
+{{ define "main" }}
+<main>
+  <h1>all series</h1>
+  <ul>
+    {{ range .Site.Taxonomies.series.Alphabetical }}
+    <li>
+      <a class="series" href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a>
+      <!-- <span>{{ .Count }}</span> -->
+    </li>
+    {{ end }}
+  </ul>
+</main>
+<!-- <script>
+  feather.replace();
+</script> -->
+{{ end }}
