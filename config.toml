@@ -10,11 +10,11 @@ enableEmoji = true
 
 [menus]
   [[menus.main]]
-    name = 'about'
-    pageRef = 'about'
-  [[menus.main]]
     name = 'readings'
     pageRef = 'readings'
+  [[menus.main]]
+    name = 'about'
+    pageRef = 'about'
   [[menus.main]]
     name = 'rss'
     url = '/index.xml'
